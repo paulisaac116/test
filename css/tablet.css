@@ -1,0 +1,175 @@
+.app-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    justify-content: center;
+    align-items: center;
+}
+.app-section .click-and-go-logo {
+    width: 120px;
+}
+.app-section__information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-section__information .phone-app,
+.app-section__information .app-stores {
+    flex-basis: calc(50% - 2rem);
+}
+
+.app-section__information .phone-app {
+    width: 300px;
+}
+
+.app-section__information .app-stores {
+    position: relative;
+    top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-section__information .app-stores h2 {
+    margin: 0;
+    font-size: 3.6rem;
+}
+.app-stores .app-stores--logos {
+    display: flex;
+}
+
+.app-stores .app-stores--logos .store-logo {
+    margin: 0;
+    width: 150px;
+}
+
+.app-stores .app-stores--logos .apple-store {
+    margin-left: 20px;
+}
+
+.download-section {
+    padding: 100px 60px;
+    background-attachment: fixed;
+}
+
+.download-section h2 {
+    font-size: 3.6rem;
+}
+
+.benefict-section {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 60px;
+}
+
+.benefict-section::before {
+    content: "";
+    position: absolute;
+    top: 56px;
+    left: 10px;
+    width: 98%;
+    height: 4px;
+    background-color: var(--white);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.benefict-section .benefict {
+    position: relative;
+    margin: 0;
+    z-index: 2000;
+    
+}
+
+.benefict-section img {
+    width: 60px;
+    
+}
+.benefict-section h3 {
+    font-size: 2rem;
+    padding: 0 40px;
+    font-weight: 400;
+}
+
+.taxi-background {
+    background-attachment: fixed;
+    height: 360px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.form-section h2,
+.form-section .form-and-button {
+    flex-basis: calc(50% - 4rem);
+}
+
+.form-section h2 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    position: relative;
+    top: -30px;
+    width: 10px;
+}
+
+
+.form-section form input {
+    font-size: 1.4rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+footer p, 
+footer a {
+    font-size: 1.2rem;
+}
+
+footer .footer__social-media {
+    flex-direction: row;
+}
+
+footer .footer__social-media img {
+    width: 50px;
+}
+
+.footer__social-media img:last-of-type {
+    margin: 0;
+    margin-left: 10px;
+}
+
+footer .footer__info,
+footer a {
+    margin: 0;
+    margin-left: 25px;
+}
+
+footer a {
+    width: 100px;
+}
+
+footer .footer__info img {
+    width: 30px;
+}
+
+footer .footer__info img:last-of-type {
+    width: 20px;
+}
+
+
+footer .footer__direction p{
+    width: 120px;
+    font-size: 1.1rem;
+}

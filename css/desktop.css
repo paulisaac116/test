@@ -1,0 +1,52 @@
+.app-section__information .app-stores h2 ,
+.download-section h2 ,
+.form-section h2 {
+    font-size: 4.4rem;
+}
+
+.download-section h2 {
+    text-align: left;
+}
+
+.download-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-size: contain;
+    background-position: right;
+    background-color: #131313;
+}
+
+.download-section::after {
+    opacity: 0;
+}
+
+.download-section .btn-download {
+    width: 300px;
+    font-size: 2rem;
+}
+
+.form-section form input {
+    font-size: 1.6rem;
+}
+
+footer p, 
+footer a {
+    font-size: 1.8rem;
+}
+
+footer .footer__info,
+footer a {
+    margin: 0;
+}
+
+footer .footer__direction p{
+    width: 250px;
+}
+
+footer .footer__direction p{
+    font-size: 1.6rem;
+}
